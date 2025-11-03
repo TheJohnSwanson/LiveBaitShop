@@ -3,9 +3,6 @@ Author: John Swanson
 File Name: styles.css
 Date: November 3rd, 2025
  */
-body {
-    background-color: greenyellow;
-}
 
 .btn {
     background: white;
@@ -29,20 +26,50 @@ div,
 h1,
 h2 {
     text-align: center;
+    color: white;
 }
 
 footer {
     top: 200px;
 }
 
+#indexbody {
+    background-image: url("images/sunset.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 21px;
+    font-style: normal;
+}
+
+#menubody {
+    background-color: green;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 21px;
+    font-style: normal;
+}
+
 @media (min-width: 320px) {
+
     .btn {
         display: flex;
         justify-content: center;
     }
 
+    p {
+        font-size: 15px;
+    }
+
     a {
         font-size: 30px;
+    }
+
+    iframe{
+        height: 200px;
+        width: 200px;
     }
 
 }
@@ -71,5 +98,10 @@ footer {
 
     #menu {
         font-size: 30px;
+    }
+
+    iframe{
+        height: 600px;
+        width: 700px;
     }
 }
